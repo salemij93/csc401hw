@@ -37,9 +37,9 @@ def calc_day_num_of_year():
 
 def display_day_num_of_year(listOfDates):
 	print('Date' + '\t\t' + 'Day of Year' + '\n')
-	#for line in listOfDates:
-		# print(str(line[0]) + '\t' + str(line[1]) +'\n')
-	print(listOfDates)
+	for line in listOfDates:
+		print(str(line[0]) + '\t' + str(line[1]) +'\n')
+	# print(listOfDates)
 
 def save_day_num_of_year(datesToAddToFile):
 	try:
